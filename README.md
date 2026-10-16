@@ -1,5 +1,7 @@
 # Custom Filters
 
+独立仓库为 [yueweiit/deeplinkerp-custom_filters](https://github.com/yueweiit/deeplinkerp-custom_filters)，开发主线和 PR 目标均为 `main`。Frappe App 名保持 `custom_filters`。
+
 `custom_filters` 是面向 Frappe / ERPNext 的综合定制扩展，集中提供列表筛选、桌面交互、订单收发货查询、供应商报价同步、生产计划增强、业务翻译和单点登录等功能。
 
 功能主要嵌入 ERPNext 现有的列表、表单和登录页，通过 [hooks.py](custom_filters/hooks.py) 接入。部分功能会更新采购价格、创建业务单据或在迁移时修复历史数据。
@@ -74,7 +76,7 @@
 
 ```bash
 cd /path/to/frappe-bench
-bench get-app <repository-url> --branch main
+bench get-app --branch main custom_filters https://github.com/yueweiit/deeplinkerp-custom_filters.git
 bench --site <site-name> install-app custom_filters
 bench --site <site-name> migrate
 bench build --app custom_filters
