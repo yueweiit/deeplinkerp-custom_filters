@@ -1,0 +1,114 @@
+BOM 数量,BOM quantity
+BOM 编号,BOM No.
+EIMS OAuth state 与当前浏览器不匹配,EIMS OAuth state does not match the current browser
+EIMS OAuth state 已失效或未找到,EIMS OAuth state has expired or was not found
+EIMS OAuth state 校验失败,EIMS OAuth state verification failed
+EIMS OAuth state 缺少 PKCE verifier,EIMS OAuth state is missing PKCE verifier
+EIMS OAuth 回调缺少 state 参数,EIMS OAuth callback is missing state parameter
+EIMS OAuth 回调缺少授权码,EIMS OAuth callback is missing authorization code
+EIMS Social Login Key 未配置 UserInfo 地址,EIMS Social Login Key is not configured with UserInfo address
+EIMS Social Login Key 未配置授权地址,EIMS Social Login Key No authorization address configured
+EIMS userinfo 未返回有效的 app_user_id,EIMS userinfo did not return a valid app_user_id
+EIMS userinfo 返回的 app_user_id 必须是字符串,EIMS app_user_id returned by userinfo must be a string
+EIMS 登录失败,EIMS Login failed
+EIMS 登录未完成，请返回登录页重试；如问题持续请联系管理员。,"EIMS The login is not completed, please return to the login page and try again; if the problem persists, please contact the administrator."
+ERP 尚未创建 EIMS App User ID 字段，请先执行 migrate,"ERP The EIMS App User ID field has not been created yet, please execute migrate first"
+ERP 尚未创建钉钉身份字段，请先执行 migrate,"ERP The DingTalk identity field has not been created yet, please execute migrate first"
+ERP 未绑定 EIMS 账号,ERP is not bound to the EIMS account
+ERP 未绑定钉钉账号,ERP is not bound to DingTalk account
+个 BOM,BOM
+买/卖,buy/sell
+交货{0},Delivery {0}
+交货数量,Delivery quantity
+交货日期,Delivery date
+交货次数,Number of deliveries
+仓库,Warehouse
+价格,price
+优先级,priority
+供应商,Supplier
+停用,Disabled
+公司,Company
+共,total
+共 {0} 次交货,A total of {0} deliveries
+共 {0} 次出货,A total of {0} shipments
+关联成品,Related finished products
+出货{0},Shipping {0}
+出货数量,Shipment quantity
+出货日期,Shipping date
+出货次数,Number of shipments
+单位,Unit
+单号,Order number
+启用,Enabled
+客户,Customer
+导出报表,Export report
+已交,handed in
+已出,Out
+币种,Currency
+序号,serial number
+当前 EIMS 账号未在 ERP 中绑定对应用户，请联系管理员配置 EIMS App User ID 后重试。,The current EIMS account is not bound to the corresponding user in ERP. Please contact the administrator to configure EIMS App User ID and try again.
+当前钉钉账号未绑定对应的 ERP 用户，请联系管理员绑定钉钉 Union ID 后重试。,The current DingTalk account is not bound to the corresponding ERP user. Please contact the administrator to bind DingTalk Union ID and try again.
+您没有 BOM 查看权限，无法显示反查数据,You do not have BOM viewing permission and cannot display the reverse check data.
+您没有 Pricing Rule 查看权限，无法显示阶梯价格,You do not have permission to view Pricing Rule and cannot display tiered prices.
+成品名称,Product name
+成品物料,Finished item
+打开完整报表,Open full report
+数量区间,Quantity range
+暂无交货记录,No delivery record yet
+暂无出货记录,No shipping record yet
+暂无数据,No data yet
+最新交期,Latest delivery date
+有效期,Validity period
+未交,Not handed in
+未交货,undelivered
+未出,Not out yet
+未出货,Not shipped
+未找到物料 {0},Material {0} not found
+未找到配置的 EIMS Social Login Key：{0},Configured EIMS Social Login Key not found: {0}
+未找到配置的钉钉 Social Login Key：{0},The configured DingTalk Social Login Key was not found: {0}
+未找到采购订单 {0},Purchase Order {0} not found
+未找到销售订单 {0},Sales Order {0} not found
+正在获取 BOM 反查数据...,Obtaining BOM reverse check data...
+正在获取采购交货详情...,Getting purchase delivery details...
+正在获取销售出货明细...,Retrieving sales shipment details...
+正在获取阶梯价格数据...,Retrieving tiered price data...
+物料名称,Item name
+物料组,Item group
+物料编码,Item code
+状态,Status
+示例：,Example:
+组件用量,Component quantity
+缺少 Item 读取权限,Missing Item read permission
+缺少 Purchase Order 读取权限,Missing Purchase Order read permission
+缺少 Sales Order 读取权限,Sales Order read permission missing
+订单数量,Order quantity
+订单日期,order date
+该物料未被任何已提交的 BOM 使用,This material is not used by any submitted BOM
+该物料没有按物料编码关联的 Pricing Rule,This material does not have a Pricing Rule associated with Item Code
+返回登录页,Return to login page
+通用,Universal
+采购,Procurement
+采购交货详情,Purchase delivery details
+采购收货单,Purchase Receipt single
+钉钉 OAuth state 与当前会话不匹配,DingTalk OAuth state does not match the current session
+钉钉 OAuth state 与当前浏览器不匹配,DingTalk OAuth state does not match the current browser
+钉钉 OAuth state 已失效或未找到,DingTalk OAuth state has expired or was not found
+钉钉 OAuth state 校验失败,DingTalk OAuth state verification failed
+钉钉 OAuth 回调缺少 state 参数,DingTalk OAuth callback is missing state parameter
+钉钉 OAuth 回调缺少授权码,DingTalk OAuth callback is missing authorization code
+钉钉 Social Login Key 未配置 Access Token URL,DingTalk Social Login Key not configured Access Token URL
+钉钉 Social Login Key 未配置 Client ID 或 Client Secret,DingTalk Social Login Key is not configured Client ID or Client Secret
+钉钉用户信息中的身份标识格式无效,DingTalkThe identity format in the user information is invalid
+钉钉用户信息未返回 Union ID 或 Open ID,DingTalk user information was not returned Union ID or Open ID
+钉钉登录失败,DingTalk login failed
+钉钉登录未完成，请返回登录页重试；如问题持续请联系管理员。,"DingTalk The login is not completed, please return to the login page and try again; if the problem persists, please contact the administrator."
+销售,sales
+销售出库单,Delivery Note single
+销售出货明细,Sales shipment details
+阶梯价格表,Ladder price list
+非默认,nondefault
+默认,Default
+默认 BOM,Default BOM
+交货详情,Delivery Details
+交货详情报表,Delivery Details Report
+出货明细,Shipment Details
+出货明细报表,Shipment Details Report

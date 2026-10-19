@@ -755,3 +755,32 @@ Unreconcile Payment Entries,取消收付款凭证核销
 "Account: {0} is not permitted under Payment Entry",科目：{0} 不允许用于收付款凭证
 "Bank Transaction {0} added as Payment Entry",银行交易 {0} 已作为收付款凭证添加
 Only Value available for Payment Entry,收付款凭证仅支持金额
+Actions,操作
+Actual Qty,实际数量
+BOM No,物料清单号
+Desktop icons,桌面图标
+DingTalk Open ID,钉钉打开ID
+DingTalk Open ID used as a fallback identity for SSO login.,钉钉开放ID用作SSO登录的后备身份。
+DingTalk Union ID,钉钉联盟ID
+DingTalk Union ID and Open ID are bound to different ERP Users,钉钉联盟ID和开放ID绑定不同的ERP用户
+DingTalk Union ID used to bind the ERP User for SSO login.,钉钉联盟ID用于绑定ERP用户进行SSO登录。
+DingTalk email/mobile matches multiple ERP Users,钉钉邮箱/手机匹配多个ERP用户
+EIMS App User ID,EIMS 应用程序用户 ID
+Horizontal scroll,横向滚动
+Item,物料
+Item Name,物料名称
+Must match the app_user_id returned by EIMS OAuth userinfo.,必须与 EIMS OAuth 用户信息返回的 app_user_id 匹配。
+Not permitted.,不允许。
+Prices rolled back to quotation {0}.,价格已回滚至报价单 {0}。
+Process Status,生产流程状态
+Production quantity for {0} cannot exceed {1}.,{0} 的生产数量不能超过 {1}。
+Quote prices synced for {0} item(s).,已为 {0} 个物料同步报价。
+Resize {0},调整大小 {0}
+Rollback to the previous quotation failed; only the cancelled quotation's prices were removed.,回滚上一张报价失败;已仅清除被取消报价的价格。
+Sales Order,销售订单
+Select the Warehouse,请先选择仓库
+UOM,单位
+View,查看
+You do not have permission to read Supplier Quotations.,您无权阅读供应商报价单。
+You do not have permission to submit Supplier Quotations.,您无权提交供应商报价单。
+You do not have permission to write {0}.,没有写入 {0} 的权限。

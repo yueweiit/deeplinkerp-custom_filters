@@ -79,3 +79,154 @@ BOM 数量,Cantidad de la BOM
 通用,General
 销售,Venta
 采购,Compra
+Actions,Acciones
+Actual Qty,Cant. Real
+Available to Produce,Disponible para producir
+BOM No,Lista de materiales (LdM) No.
+BOM Required Qty,BOM Cantidad requerida
+Choose Production Priority,Elija la prioridad de producción
+Close,Cerrar
+Close All Unpinned,Cerrar todo sin fijar
+Close Others,Cerrar Otros
+Close Tabs to the Right,Cerrar pestañas a la derecha
+Copy Link,Copiar Enlace
+Create,Crear
+Create Purchase Request,Crear solicitud de compra
+Create Work Orders,Crear órdenes de trabajo
+Current Rate,Tarifa actual
+Current Stock Qty,Cantidad de existencias actual
+Current inventory is insufficient to produce any finished goods.,El inventario actual es insuficiente para producir productos terminados.
+Default Supplier Quotation Warehouse,Almacén de cotización de proveedor predeterminado
+Desktop icons,Iconos de escritorio
+DingTalk Open ID,DingTalk Abrir ID
+DingTalk Open ID used as a fallback identity for SSO login.,DingTalk Open ID se utiliza como identidad alternativa para el inicio de sesión de SSO.
+DingTalk Union ID,Unión DingTalk ID
+DingTalk Union ID and Open ID are bound to different ERP Users,DingTalk Union ID y Open ID están vinculados a diferentes usuarios de ERP
+DingTalk Union ID used to bind the ERP User for SSO login.,DingTalk Union ID se utiliza para vincular al usuario ERP para el inicio de sesión SSO.
+DingTalk email/mobile matches multiple ERP Users,El correo electrónico/móvil de DingTalk coincide con varios usuarios de ERP
+EIMS App User ID,Usuario de la aplicación EIMS ID
+EIMS OAuth state 与当前浏览器不匹配,EIMS El estado de OAuth no coincide con el navegador actual
+EIMS OAuth state 已失效或未找到,EIMS El estado de OAuth ha caducado o no se ha encontrado
+EIMS OAuth state 校验失败,EIMS Error en la verificación del estado de OAuth
+EIMS OAuth state 缺少 PKCE verifier,EIMS Falta el estado de OAuth. Verificador PKCE
+EIMS OAuth 回调缺少 state 参数,EIMS Falta el parámetro de estado de la devolución de llamada de OAuth
+EIMS OAuth 回调缺少授权码,EIMS Falta el código de autorización en la devolución de llamada de OAuth
+EIMS Social Login Key 未配置 UserInfo 地址,La clave de inicio de sesión social EIMS no está configurada con la dirección UserInfo
+EIMS Social Login Key 未配置授权地址,EIMS Clave de inicio de sesión social No se ha configurado ninguna dirección de autorización
+EIMS userinfo 未返回有效的 app_user_id,La información de usuario de EIMS no devolvió un app_user_id válido
+EIMS userinfo 返回的 app_user_id 必须是字符串,EIMS app_user_id devuelto por información de usuario debe ser una cadena
+EIMS 登录失败,EIMS Error al iniciar sesión
+EIMS 登录未完成，请返回登录页重试；如问题持续请联系管理员。,"EIMS El inicio de sesión no se completó; regrese a la página de inicio de sesión e inténtelo nuevamente; Si el problema persiste, comuníquese con el administrador."
+ERP 尚未创建 EIMS App User ID 字段，请先执行 migrate,ERP El campo ID del usuario de la aplicación EIMS aún no se ha creado; primero ejecute la migración.
+ERP 尚未创建钉钉身份字段，请先执行 migrate,ERP El campo de identidad DingTalk aún no se ha creado; primero ejecute migrar
+ERP 未绑定 EIMS 账号,ERP no está vinculado a la cuenta EIMS
+ERP 未绑定钉钉账号,ERP no está vinculado a la cuenta DingTalk
+Estimated Remaining,Restante estimado
+Failed to copy link,No se pudo copiar el enlace
+Gap = BOM required quantity − current warehouse stock − this plan's submitted Material Request balance − outstanding Purchase Order quantity. These balances are counted separately to prevent duplicate requests.,Brecha = BOM cantidad requerida − stock de almacén actual − saldo de solicitud de material enviado de este plan − cantidad pendiente de orden de compra. Estos saldos se cuentan por separado para evitar solicitudes duplicadas.
+Get required materials first to view this plan's material shortage.,Obtenga primero los materiales necesarios para ver la escasez de materiales de este plan.
+Historical Quotation,Cita histórica
+Historical Rate,Tasa histórica
+Horizontal scroll,Desplazamiento horizontal
+Item,Producto
+Item Name,Nombre del Producto
+Latest Quotation,Última cotización
+Link copied,Enlace copiado
+Must match the app_user_id returned by EIMS OAuth userinfo.,Debe coincidir con el app_user_id devuelto por la información de usuario de EIMS OAuth.
+New {0},Nuevo/a: {0}
+No price rows were found to sync in this quotation.,No se encontraron filas de precios para sincronizar en esta cotización.
+Not permitted.,No permitido.
+Only submitted Production Plans can create Purchase Requests.,Sólo los Planes de Producción enviados pueden crear Solicitudes de Compra.
+Outstanding PO,Excelente PO
+Per Finished Unit,Por unidad terminada
+Pin Tab,Pestaña Fijar
+Plan Gap,Brecha del plan
+Price Check Skipped,Verificación de precio omitida
+Prices rolled back to quotation {0}.,Los precios volvieron a la cotización {0}.
+Priority,Prioridad
+Process Status,Estado del proceso de producción
+Production Item,Elemento de producción
+Production Qty,Cantidad de producción
+Production quantity for {0} cannot exceed {1}.,La cantidad de producción para {0} no puede exceder {1}.
+Qty In Stock,Cant en existencia
+Quote prices synced for {0} item(s).,Precios de cotización sincronizados para artículos {0}.
+Raw material stock in source warehouses,Stock de materia prima en almacenes de origen.
+Real-time Material Shortage,Escasez de material en tiempo real
+Remaining Qty,Cantidad restante
+Requested Not Ordered,Solicitado No ordenado
+Required Qty,Cant. Solicitada
+Resize {0},Cambiar el tamaño de {0}
+Rollback to the previous quotation failed; only the cancelled quotation's prices were removed.,Error al retroceder a la cotización anterior; sólo se eliminaron los precios de la cotización cancelada.
+Sales Order,Orden de venta (OV)
+Select at least one production item.,Seleccione al menos un artículo de producción.
+Select the Warehouse,Seleccione el almacén
+Source Warehouse,Almacén de origen
+Sync Failed,Error de sincronización
+Sync Tier Prices,Precios de niveles de sincronización
+Synced,Sincronizado
+The current form has unsaved changes that may be lost. Do you want to continue?,El formulario actual tiene cambios no guardados que pueden perderse. ¿Quieres continuar?
+The current quotation has prices higher than the latest matching historical quotation. Continue submitting?,La cotización actual tiene precios más altos que la última cotización histórica coincidente. ¿Continuar enviando?
+The following items have fewer quantity tiers than the latest quotation. Continue submitting?,Los siguientes artículos tienen menos niveles de cantidad que la última cotización. ¿Continuar enviando?
+The price check failed and was skipped. Submission continues.,La verificación del precio falló y se omitió. La presentación continúa.
+There are no remaining production items.,No quedan artículos de producción restantes.
+There is no remaining material shortage to purchase.,Ya no queda escasez de material para comprar.
+Tier Price Sync Status,Estado de sincronización de precios de nivel
+Tier price sync failed; the quotation was submitted. Use the Sync Tier Prices button to retry.,Falló la sincronización del precio del nivel; se envió la cotización. Utilice el botón Sincronizar precios de nivel para volver a intentarlo.
+Tier prices can only be synced for submitted quotations.,Los precios de nivel solo se pueden sincronizar para las cotizaciones enviadas.
+Tiers (Latest → Current),Niveles (Último → Actual)
+UOM,UdM
+Unpin Tab,Desanclar pestaña
+View,Ver
+View All Tabs,Ver todas las pestañas
+View Real-time Material Shortage,Ver la escasez de material en tiempo real
+You do not have permission to read Supplier Quotations.,No tiene permiso para leer cotizaciones de proveedores.
+You do not have permission to submit Supplier Quotations.,No tiene permiso para enviar cotizaciones de proveedores.
+You do not have permission to write {0}.,No tienes permiso para escribir {0}.
+交货数量,Cantidad de entrega
+仓库,Almacén
+供应商,Proveedor
+停用,Inactivo
+公司,Empresa
+共 {0} 次出货,Un total de envíos de {0}
+出货{0},Envío {0}
+出货数量,Cantidad de envío
+单号,Número de pedido
+启用,Activo
+客户,Cliente
+币种,Moneda
+序号,No.
+当前 EIMS 账号未在 ERP 中绑定对应用户，请联系管理员配置 EIMS App User ID 后重试。,La cuenta EIMS actual no está vinculada al usuario correspondiente en ERP. Comuníquese con el administrador para configurar el usuario de la aplicación EIMS ID e inténtelo nuevamente.
+当前钉钉账号未绑定对应的 ERP 用户，请联系管理员绑定钉钉 Union ID 后重试。,La cuenta DingTalk actual no está vinculada al usuario ERP correspondiente. Comuníquese con el administrador para vincular DingTalk Union ID e inténtelo nuevamente.
+成品物料,Producto terminado
+未出货,No enviado
+未找到物料 {0},Material {0} no encontrado
+未找到配置的 EIMS Social Login Key：{0},No se encontró la clave de inicio de sesión social EIMS configurada: {0}
+未找到配置的钉钉 Social Login Key：{0},No se encontró la clave de inicio de sesión social DingTalk configurada: {0}
+未找到销售订单 {0},No se encontró el pedido de venta {0}
+正在获取采购交货详情...,Obteniendo detalles de entrega de compra...
+物料组,Grupo de artículos
+状态,Estado
+示例：,Ejemplo:
+组件用量,Cantidad del componente
+缺少 Item 读取权限,Permiso de lectura de elemento faltante
+缺少 Sales Order 读取权限,Falta el permiso de lectura del pedido de ventas
+订单日期,Fecha del pedido
+返回登录页,Volver a la página de inicio de sesión
+钉钉 OAuth state 与当前会话不匹配,DingTalk El estado de OAuth no coincide con la sesión actual
+钉钉 OAuth state 与当前浏览器不匹配,DingTalk El estado de OAuth no coincide con el navegador actual
+钉钉 OAuth state 已失效或未找到,DingTalk El estado de OAuth ha caducado o no se ha encontrado
+钉钉 OAuth state 校验失败,DingTalk Error en la verificación del estado de OAuth
+钉钉 OAuth 回调缺少 state 参数,DingTalk Falta el parámetro de estado de la devolución de llamada de OAuth
+钉钉 OAuth 回调缺少授权码,DingTalk Falta el código de autorización en la devolución de llamada de OAuth
+钉钉 Social Login Key 未配置 Access Token URL,DingTalk Clave de inicio de sesión social no configurada Token de acceso URL
+钉钉 Social Login Key 未配置 Client ID 或 Client Secret,DingTalk La clave de inicio de sesión social no está configurada Cliente ID o Secreto de cliente
+钉钉用户信息中的身份标识格式无效,DingTalkEl formato de identidad en la información del usuario no es válido.
+钉钉用户信息未返回 Union ID 或 Open ID,No se devolvió la información del usuario DingTalk Union ID o Open ID
+钉钉登录失败,Error al iniciar sesión en DingTalk
+钉钉登录未完成，请返回登录页重试；如问题持续请联系管理员。,"DingTalk El inicio de sesión no se completó; regrese a la página de inicio de sesión e inténtelo nuevamente; Si el problema persiste, comuníquese con el administrador."
+默认,Predeterminada
+默认 BOM,BOM predeterminada
+交货详情,Detalles de entrega
+交货详情报表,Informe de detalles de entrega
+出货明细,Detalles de envío
+出货明细报表,Informe de detalles de envío
