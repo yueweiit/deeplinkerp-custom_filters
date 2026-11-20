@@ -1266,6 +1266,9 @@
 					if (legacy_auto_pinned_tab) legacy_auto_pinned_tab.pinned = false;
 				}
 				this.trim_tabs();
+				// Consumers may migrate retired routes after native state restoration
+				// and before init() renders tabs. Storage remains owned by this controller.
+				window.dispatchEvent(new CustomEvent("custom-filters:desk-tabs-restored", { detail: this }));
 			} catch (error) {
 				localStorage.removeItem(storage_key());
 			}
